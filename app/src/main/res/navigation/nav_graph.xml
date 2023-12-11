@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/singUpFragment"
-        android:name="pt.ipbeja.todoapp.ui.fragments.SingUpFragment"
+        android:name="pt.ipbeja.todoapp.ui.fragments.SignUpFragment"
         android:label="fragment_sing_up"
         tools:layout="@layout/fragment_sing_up" />
 </navigation>

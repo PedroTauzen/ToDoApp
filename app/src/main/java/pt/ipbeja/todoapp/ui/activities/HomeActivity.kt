@@ -8,5 +8,7 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+
+        window.navigationBarColor = getColor(R.color.home_activity_bottom_nav_color)
     }
 }

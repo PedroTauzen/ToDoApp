@@ -11,4 +11,9 @@
     <string name="name">Name</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="already_have_account_log_in">Already have account? Log in</string>
+    <string name="home">Home</string>
+    <string name="todo">ToDo</string>
+    <string name="add">Add</string>
+    <string name="calendar">Calendar</string>
+    <string name="reminder">Reminder</string>
 </resources>

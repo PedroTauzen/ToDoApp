@@ -22,11 +22,11 @@ class SignUpFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding.alreadyHaveAccountTxt.setOnClickListener {
             findNavController()
-                .navigate(R.id.logInFragment)
+                .navigateUp()
         }
         binding.signUpButton.setOnClickListener {
             findNavController()
-                .navigate(R.id.logInFragment)
+                .navigateUp()
         }
     }
 }

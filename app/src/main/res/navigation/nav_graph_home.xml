@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph_home.xml"
-    app:startDestination="@id/dashBoardFragment">
+    app:startDestination="@id/homeFragment">
 
     <fragment
-        android:id="@+id/dashBoardFragment"
-        android:name="pt.ipbeja.todoapp.ui.fragments.DashBoardFragment"
-        android:label="fragment_dash_board"
-        tools:layout="@layout/fragment_dash_board" />
+        android:id="@+id/homeFragment"
+        android:name="pt.ipbeja.todoapp.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
 </navigation>

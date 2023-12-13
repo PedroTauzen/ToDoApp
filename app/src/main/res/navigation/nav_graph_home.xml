@@ -10,4 +10,9 @@
         android:name="pt.ipbeja.todoapp.ui.fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/toDoFragment"
+        android:name="pt.ipbeja.todoapp.ui.fragments.ToDoFragment"
+        android:label="fragment_to_do"
+        tools:layout="@layout/fragment_to_do" />
 </navigation>

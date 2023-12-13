@@ -3,9 +3,7 @@ package pt.ipbeja.todoapp.ui.fragments
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import pt.ipbeja.todoapp.R
 import pt.ipbeja.todoapp.databinding.FragmentToDoBinding
 
 class ToDoFragment : Fragment() {
